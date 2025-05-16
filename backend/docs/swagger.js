@@ -5,15 +5,15 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDefinition = {
   openapi: '3.0.0',
   info: {
-    title: 'Fusion E-Commerce Backend APIs', // API title
+    title: 'Eklavya E-Commerce Backend APIs', // API title
     version: '1.1.0', // API version
     description:
-      'API documentation for the Fusion E-Commerce backend server. This documentation provides detailed information on all available endpoints for managing products, users, authentication, and more.',
+      'API documentation for the Eklavya E-Commerce backend server. This documentation provides detailed information on all available endpoints for managing products, users, authentication, and more.',
     termsOfService: 'https://mern-stack-ecommerce-app-nine.vercel.app',
     contact: {
-      name: 'Fusion E-Commerce Website',
+      name: 'Eklavya E-Commerce Website',
       url: 'https://mern-stack-ecommerce-app-nine.vercel.app',
-      email: 'hoangson091104@gmail.com', // Contact email
+      email: 'sunnysooham05@gmail.com', // Contact email
     },
     license: {
       name: 'MIT License',
@@ -90,7 +90,7 @@ const swaggerDefinition = {
           description: 'Noise-cancelling wireless headphones with long battery life.',
           price: 99.99,
           category: 'Electronics',
-          brand: 'Fusion',
+          brand: 'Eklavya',
           stock: 150,
           rating: 4.7,
           numReviews: 89,
@@ -125,10 +125,10 @@ const swaggerDefinition = {
         },
         example: {
           id: '507f1f77bcf86cd799439011',
-          name: 'John Doe',
-          email: 'john.doe@example.com',
+          name: 'Alia Bhatt',
+          email: 'Alia.Bhatt@example.com',
           password: 'password123',
-          createdAt: '2023-10-21T14:21:00Z',
+          createdAt: '2025-04-21T14:21:00Z',
         },
       },
     },
@@ -154,7 +154,7 @@ const setupSwaggerUi = app => {
     '/api-docs',
     swaggerUi.serve,
     swaggerUi.setup(swaggerSpec, {
-      customSiteTitle: 'Fusion E-Commerce API Docs',
+      customSiteTitle: 'Eklavya E-Commerce API Docs',
     })
   );
 };
